@@ -35,14 +35,16 @@ enum MealType: String {
 }
 
 enum DayOfWeek: String {
+    case sunday = "Sunday"
     case monday = "Monday"
     case tuesday = "Tuesday"
     case wednesday = "Wednesday"
     case thursday = "Thursday"
     case friday = "Friday"
     case saturday = "Saturday"
-    case sunday = "Sunday"
 }
+
+
 
 //enum Equipment: String {
 //    case knife = "Knife"
